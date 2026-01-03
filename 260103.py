@@ -232,6 +232,8 @@ while True:
     if menu == '1':
         string=input('추가할 문자열을 입력해주세요')
         List.append(string)
+        print(List)
+        break
 
     if menu == '4':
         break

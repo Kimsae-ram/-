@@ -226,11 +226,13 @@
 ##
 ##print(num_list)          
 
-
-
-
+List=[]
 while True:
     menu=input('1. 추가 2. 삭제 3. 확인 4. 종료 : ')
+    if menu == '1':
+        string=input('추가할 문자열을 입력해주세요')
+        List.append(string)
+
     if menu == '4':
         break
     else:

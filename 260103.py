@@ -229,6 +229,13 @@
 
 
 
+while True:
+    menu=input('1. 추가 2. 삭제 3. 확인 4. 종료 : ')
+    if menu == '4':
+        break
+    else:
+        continue
+
 
 
 
